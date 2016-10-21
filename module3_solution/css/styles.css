@@ -1,0 +1,110 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 80px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  /*font-family: 'Lora', serif;*/
+  color: #000;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-collapse {
+  padding: 0px;
+}
+.navbar-nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  background-color: #F5F5F5;
+  text-align: center;
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  background-color: #999999;
+  border: 2px solid #F5F5F5;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+  display: none;
+}
+/* END HEADER */
+
+h1#main-title{
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.box {
+  background-color: #999999;
+  margin: 25px;
+  padding: 5px 15px 15px 15px;
+ }
+.title {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+    
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+  	padding-top: 20px;
+  	height: 65px;
+  }
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+  	padding-top: 15px;
+    height: 55px;
+    margin-left: 15px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    display: block;
+    font-size: 1.2em;
+  }
+  
